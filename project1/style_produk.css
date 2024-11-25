@@ -1,0 +1,100 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.produk-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produk-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 15px;
+    width: calc(30% - 20px); /* Mengatur lebar kartu produk */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.produk-card:hover {
+    transform: scale(1.05); /* Efek zoom saat hover */
+}
+
+.produk-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.produk-card h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.produk-card p {
+    margin: 5px 0;
+}
+
+.harga {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.stok {
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
